@@ -5,6 +5,7 @@ pygame.mixer.init()
 current_path = os.path.dirname(__file__)
 # Variables
 
+HEALTH = 14
 WIDTH, HEIGHT = 900, 500
 FPS = 60
 SPEED = 5
@@ -122,8 +123,8 @@ def main():
     red = pygame.Rect(675, 250, SPACESHIP_WIDTH, SPACESHIP_HEIGHT)
     yellow_bullets = []
     red_bullets = []
-    red_health = 10
-    yellow_health = 10
+    red_health = HEALTH
+    yellow_health = HEALTH
     clock = pygame.time.Clock()
     run = True
     while run:
