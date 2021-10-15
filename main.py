@@ -21,8 +21,8 @@ YELLOW = (255, 255, 0)
 
 BORDER = pygame.Rect(WIDTH//2 - 5, 0, 10, HEIGHT)
 
-BULLET_HIT_SOUND=pygame.mixer.Sound(os.path.join(current_path, 'Assets', 'Grenade+1.mp3'))
-BULLET_FIRE_SOUND=pygame.mixer.Sound(os.path.join(current_path, 'Assets', 'Gun+Silencer.mp3'))
+BULLET_HIT_SOUND=pygame.mixer.Sound(os.path.join(current_path, 'Assets', 'Grenade+1.wav'))
+BULLET_FIRE_SOUND=pygame.mixer.Sound(os.path.join(current_path, 'Assets', 'Gun+Silencer.wav'))
 BULLET_FIRE_SOUND.set_volume(0.025)
 BULLET_HIT_SOUND.set_volume(0.025)
 
